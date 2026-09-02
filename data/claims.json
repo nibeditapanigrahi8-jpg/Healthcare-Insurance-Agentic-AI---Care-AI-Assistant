@@ -1,0 +1,29 @@
+[
+  {
+    "claim_id": "CLM10001",
+    "member_id": "M1001",
+    "service": "Cardiology Consultation",
+    "service_date": "2026-08-10",
+    "amount": 250,
+    "status": "Processed",
+    "member_responsibility": 40
+  },
+  {
+    "claim_id": "CLM10002",
+    "member_id": "M1002",
+    "service": "Physical Therapy",
+    "service_date": "2026-08-15",
+    "amount": 150,
+    "status": "Pending",
+    "member_responsibility": null
+  },
+  {
+    "claim_id": "CLM10003",
+    "member_id": "M1003",
+    "service": "Dental Cleaning",
+    "service_date": "2026-08-20",
+    "amount": 100,
+    "status": "Denied",
+    "member_responsibility": null
+  }
+]

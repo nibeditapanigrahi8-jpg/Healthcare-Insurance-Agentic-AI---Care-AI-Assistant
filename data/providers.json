@@ -1,0 +1,23 @@
+[
+  {
+    "provider_id": "PR001",
+    "name": "Dr. John Smith",
+    "specialty": "Cardiology",
+    "location": "Hyderabad",
+    "network_status": "In-Network"
+  },
+  {
+    "provider_id": "PR002",
+    "name": "Dr. Emily Brown",
+    "specialty": "Dermatology",
+    "location": "Hyderabad",
+    "network_status": "In-Network"
+  },
+  {
+    "provider_id": "PR003",
+    "name": "Dr. Michael Wilson",
+    "specialty": "Orthopedics",
+    "location": "Bangalore",
+    "network_status": "Out-of-Network"
+  }
+]

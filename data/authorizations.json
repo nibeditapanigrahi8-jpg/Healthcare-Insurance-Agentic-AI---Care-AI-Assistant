@@ -1,0 +1,18 @@
+[
+  {
+    "authorization_id": "AUTH1001",
+    "member_id": "M1001",
+    "service": "MRI Scan",
+    "provider": "Dr. John Smith",
+    "request_date": "2026-08-20",
+    "status": "Approved"
+  },
+  {
+    "authorization_id": "AUTH1002",
+    "member_id": "M1002",
+    "service": "Physical Therapy",
+    "provider": "Dr. Emily Brown",
+    "request_date": "2026-08-22",
+    "status": "Pending"
+  }
+]

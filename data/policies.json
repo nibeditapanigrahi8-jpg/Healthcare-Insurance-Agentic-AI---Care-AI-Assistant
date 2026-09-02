@@ -1,0 +1,22 @@
+[
+  {
+    "plan_id": "PPO100",
+    "plan_name": "CarePlus Gold PPO",
+    "deductible": 1000,
+    "out_of_pocket_max": 5000,
+    "primary_care_copay": 20,
+    "specialist_copay": 40,
+    "physical_therapy": "Covered",
+    "referral_required": false
+  },
+  {
+    "plan_id": "HMO200",
+    "plan_name": "CarePlus Silver HMO",
+    "deductible": 1500,
+    "out_of_pocket_max": 6000,
+    "primary_care_copay": 25,
+    "specialist_copay": 50,
+    "physical_therapy": "Covered",
+    "referral_required": true
+  }
+]

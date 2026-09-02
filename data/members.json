@@ -1,0 +1,26 @@
+[
+  {
+    "member_id": "M1001",
+    "name": "John Doe",
+    "date_of_birth": "1985-04-15",
+    "plan_id": "PPO100",
+    "plan_name": "CarePlus Gold PPO",
+    "status": "Active"
+  },
+  {
+    "member_id": "M1002",
+    "name": "Sarah Smith",
+    "date_of_birth": "1990-08-21",
+    "plan_id": "HMO200",
+    "plan_name": "CarePlus Silver HMO",
+    "status": "Active"
+  },
+  {
+    "member_id": "M1003",
+    "name": "Robert Johnson",
+    "date_of_birth": "1978-11-02",
+    "plan_id": "PPO100",
+    "plan_name": "CarePlus Gold PPO",
+    "status": "Active"
+  }
+]
