@@ -26,10 +26,8 @@ from tool_calling import(
     prepare_claim_appeal,
     submit_claim_appeal
 )
-import sqlite3
+import sqlite3, re, os
 from langgraph.checkpoint.sqlite import SqliteSaver
-import re
-import os
 from dotenv import load_dotenv
 load_dotenv()
 
@@ -310,7 +308,7 @@ if __name__ == "__main__":
 
     config: RunnableConfig = {
         "configurable": {
-            "thread_id": "guardrails-test-001",
+            "thread_id": "memory-test-002",
         }
     }
 

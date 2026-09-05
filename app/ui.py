@@ -21,7 +21,7 @@ if st.button("🔄 New Conversation"):
     
 # Create a unique conversation thread
 if "thread_id" not in st.session_state:
-    st.session_state.thread_id = "streamlit-006-run"
+    st.session_state.thread_id = "streamlit-008-run"
 
 
 # Store chat messages for displaying in UI

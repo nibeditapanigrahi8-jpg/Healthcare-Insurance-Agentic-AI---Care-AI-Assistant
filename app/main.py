@@ -83,7 +83,7 @@ else:
     print("Authorization not found.")
 """
 from insurance_tools import(
-    get_member,
+    get_member_plan,
     get_authorization_details,
     get_provider_network_status,
     get_authorization_status,
@@ -91,7 +91,7 @@ from insurance_tools import(
 )
 
 print("\n--- MEMBER ---")
-print(get_member("M1001"))
+print(get_member_plan("M1001"))
 
 print("\n--- PROVIDER ---")
 print(get_provider_network_status("Dr. John Smith"))

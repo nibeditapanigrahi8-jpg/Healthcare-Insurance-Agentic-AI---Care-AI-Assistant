@@ -18,13 +18,17 @@ llm = ChatOpenAI(
     temperature=0
 )
 
-VECTOR_DB_PATH = "chroma_db"
+from pathlib import Path
 
+BASE_DIR = Path(__file__).resolve().parent.parent
+
+VECTOR_DB_PATH = str(BASE_DIR / "chroma_db")
+POLICY_FILE = str(BASE_DIR / "data" / "careplus_policy.txt")
 
 def create_vectorstore():
 
     loader = TextLoader(
-        "data/careplus_policy.txt"
+        POLICY_FILE
     )
 
     documents = loader.load()
@@ -50,8 +54,10 @@ def create_vectorstore():
 
     return vectorstore
 
-
 def get_vectorstore():
+
+    if not os.path.exists(VECTOR_DB_PATH):
+        return create_vectorstore()
 
     embeddings = OpenAIEmbeddings(
         model="text-embedding-3-small"
